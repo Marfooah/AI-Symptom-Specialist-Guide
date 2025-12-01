@@ -65,7 +65,7 @@ if submit:
         try:
             api_key = os.environ.get("GROQ_API_KEY")
             if not api_key:
-                st.error("GROQ_API_KEY not found. Make sure it is set in GitHub secrets.")
+                st.error("GROQ_API_KEY not found. Please set it as an environment variable.")
             else:
                 client = Groq(api_key=api_key)
 
