@@ -64,9 +64,9 @@ if submit:
     else:
         try:
             api_key = os.environ.get("API_KEY")
-                if not api_key:
-              st.error("API_KEY not found. Make sure it is set in GitHub secrets.")
-                else:
+            if not api_key:
+                st.error("API_KEY not found. Make sure it is set in GitHub secrets.")
+            else:
                 client = Groq(api_key=api_key)
 
                 response = client.chat.completions.create(
