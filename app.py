@@ -63,9 +63,9 @@ if submit:
         st.error("Please enter symptoms.")
     else:
         try:
-            api_key = os.environ.get("API_KEY")
+            api_key = os.environ.get("GROQ_API_KEY")
             if not api_key:
-                st.error("API_KEY not found. Make sure it is set in GitHub secrets.")
+                st.error("GROQ_API_KEY not found. Make sure it is set in GitHub secrets.")
             else:
                 client = Groq(api_key=api_key)
 
