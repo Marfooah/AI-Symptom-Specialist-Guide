@@ -1,10 +1,3 @@
-🚀 Live Demo: https://ai-symptom-specialist-guide.streamlit.app/
-
-## 📸 Application Preview
-
-<img width="2876" height="1638" alt="image" src="https://github.com/user-attachments/assets/047b5f7a-096a-468e-b989-1824a72a14e0" />
-<img width="2876" height="600" alt="image" src="https://github.com/user-attachments/assets/5d6cea5b-a77a-4650-be28-4aa54b51cf26" />
-
 # 🩺 AI Symptom → Specialist Guide
 
 An AI-powered healthcare navigation assistant that helps users determine which medical specialist they should consult based on their symptoms.
@@ -12,6 +5,15 @@ An AI-powered healthcare navigation assistant that helps users determine which m
 Instead of attempting to diagnose medical conditions, the application uses a Large Language Model (LLM) to analyze symptom descriptions, recommend relevant specialists, assess urgency levels, and provide safe next-step guidance.
 
 Built with Streamlit and Groq's Llama 3.3 70B model.
+
+---
+
+🚀 Live Demo: https://ai-symptom-specialist-guide.streamlit.app/
+
+## 📸 Application Preview
+
+<img width="2876" height="1638" alt="image" src="https://github.com/user-attachments/assets/047b5f7a-096a-468e-b989-1824a72a14e0" />
+<img width="2876" height="600" alt="image" src="https://github.com/user-attachments/assets/5d6cea5b-a77a-4650-be28-4aa54b51cf26" />
 
 ---
 
